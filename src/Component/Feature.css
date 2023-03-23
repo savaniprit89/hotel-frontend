@@ -1,0 +1,26 @@
+.featured{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    z-index: 1;
+}
+
+.featureimg{
+    width: 100%;
+    object-fit: cover;
+}
+.featureitem{
+position: relative;
+color: white;
+border-radius: 10px;
+overflow: hidden;
+height: 250px;
+}
+
+.featuretitle{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}

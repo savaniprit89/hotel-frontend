@@ -1,0 +1,25 @@
+.footer{
+    width: 100%;
+    max-width: 1024px;
+    font-size: 12px;
+    margin-top: 20px;
+   margin:auto;
+}
+
+.flists{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.flist{
+    list-style: none;
+    padding: 0px;
+    
+}
+
+.flistitem{
+    margin-bottom: 5px;
+    color: #003580;
+}

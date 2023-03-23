@@ -1,6 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import { AuthContext, AuthContextProvider } from './context/AuthContext copy';
+import { SearchContextProvider } from './context/SearchContext';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+  <AuthContextProvider>
+  <SearchContextProvider>
+    <App />
+    </SearchContextProvider>
+    </AuthContextProvider>
+  </React.StrictMode>
+);
+//here which information to keep up and keep down search and auth
+/*  old
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -8,3 +24,5 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+*/
